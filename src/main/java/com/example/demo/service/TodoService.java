@@ -29,4 +29,12 @@ public class TodoService {
     public void update(Todo todo){
         todoRepository.save(todo);
     }
+
+    public String sayHello() {
+        return "hello";
+    }
+
+    public int suma(int a, int b) {
+        return a+b;
+    }
 }
